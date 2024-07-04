@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Your Extension Name",
+    "version": "1.0",
+    "description": "Your extension description",
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "permissions": [
+      "activeTab"
+    ],
+    "web_accessible_resources": [
+      "index.js",
+      "styles.css",
+      "main.html"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content_script.js"]
+      }
+    ]
+  }
+  
