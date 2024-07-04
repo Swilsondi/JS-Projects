@@ -1,4 +1,11 @@
-
+h1{ 
+    text-align: center;
+    font: 700;
+    font-weight: bolder;
+    border: 5px solid black;
+    color: black;
+    padding: 10px;
+}
 #red {
     background-color: red;
 }
@@ -13,7 +20,7 @@
 
 button {
     border-radius: 5px;
-    width: 200px;
+    width: 1000px;
     height: 100px;
     margin: 10px;
     display: block;
