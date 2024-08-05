@@ -20,4 +20,4 @@ greenButton.addEventListener("click", () => setColor("green"));
 redButton.addEventListener("click", () => setColor("red"));
 blueButton.addEventListener("click", () => setColor("blue"));
 randomColor();
-// ssssssssssssssssssssssssssssssssssssss
+// sssssssssssssssssssssssssssssssssssssss
